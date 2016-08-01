@@ -32,3 +32,34 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     </head>
+    
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Navigation -->
+            <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+            <nav id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                    <li class="sidebar-brand">
+                        <a href="index.html" onclick=$("#menu-close").click();>Jeff Coach sportif</a>
+                    </li>
+                    <li>
+                        <a href="index.html" onclick=$("#menu-close").click();>Accueil</a>
+                    </li>
+                    <li>
+                        <a href="a-propos.html" onclick=$("#menu-close").click();>A propos</a>
+                    </li>
+                    <li>
+                        <a href="services.html" onclick=$("#menu-close").click();>Services</a>
+                    </li>
+                    <li>
+                        <a href="tarifs.html" onclick=$("#menu-close").click();>Tarifs</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" onclick=$("#menu-close").click();>Contact</a>
+                    </li>
+                </ul>
+            </nav>
